@@ -1,0 +1,13 @@
+li {
+  display:inline;
+  list-style-type:none;
+  margin: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
