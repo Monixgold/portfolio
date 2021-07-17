@@ -124,6 +124,7 @@ hr.solid {
     bottom: 20px;
 }
 
+
 #smiley {
     max-width: 100%;
     height: auto;
@@ -140,7 +141,7 @@ hr.solid {
 
 .space {
     border-top: solid #666;
-    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .second {
@@ -184,4 +185,8 @@ hr.solid {
     margin: 40px;
     position: relative;
     bottom: 100px;
+}
+
+.blank {
+    border-top: solid #666;
 }
