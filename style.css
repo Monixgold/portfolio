@@ -83,12 +83,13 @@ hr.solid {
 
 .flex div {
     border: 10px groove #666;
-    height: 320px;
+    height: 385px;
     text-align: center;
     margin: 20px;
     position: relative;
     bottom: 100px;
-    left: 90px;
+    left: 70px;
+    width: 400px;
 }
 
 .flex {
@@ -193,6 +194,7 @@ hr.solid {
     object-fit: cover;
     object-position: bottom;
 }
+
 
 .blank {
     border-top: solid #666;
