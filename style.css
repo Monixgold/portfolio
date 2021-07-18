@@ -30,7 +30,7 @@
 }
 
 .emphasis {
-    background: white;
+    background: #f0f0f0;
     font-style: italic;
     font-size: 37px; 
     font-weight: lighter; 
@@ -59,7 +59,7 @@ hr.solid {
    
 }
 
-.bottom {
+#bottom {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: bolder;
@@ -93,6 +93,7 @@ hr.solid {
 
 .flex {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -111,9 +112,11 @@ hr.solid {
 
 #texttop {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
     display:flex;
     align-items: center;
     font-size: 18px;
+    text-align: center;
 }
 
 #texttop div {
@@ -122,8 +125,8 @@ hr.solid {
     margin: 10px;
     position: relative;
     bottom: 20px;
+    left: 50px
 }
-
 
 #smiley {
     max-width: 100%;
@@ -156,13 +159,14 @@ hr.solid {
 
 #projects {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#727272;
     font-size: 18px;
     text-align: center;
     position: relative;
     bottom: 100px;
 }
 
-.work {
+#work {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: bolder;
@@ -174,17 +178,20 @@ hr.solid {
 .pictures {
     justify-content: center;
     align-items: center;
-    position: relative;
+    width: 100%;
 }
 
 .pictures div {
     border: 10px groove #666;
     height: 320px;
-    width: 320px;
+    max-width: 900px;
     text-align: center;
     margin: 40px;
     position: relative;
     bottom: 100px;
+    left: 250px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .blank {
@@ -200,7 +207,7 @@ hr.solid {
     bottom: 60px;
 }
 
-.contact {
+#contact {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: bolder;
@@ -241,9 +248,21 @@ hr.solid {
     bottom: 70px;
 }
 
+@media screen and (max-width: 1220px) {
+    .pictures {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+}
+
+body {
+    background-color: #f0f0f0;
+}
 
 
-  
+
 
 
 
