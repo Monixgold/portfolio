@@ -179,22 +179,23 @@ hr.solid {
 .pictures {
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 .pictures div {
     border: 10px groove #666;
-    height: 320px;
-    max-width: 900px;
-    text-align: center;
+    width: 900px;
     margin: 40px;
-    position: relative;
-    bottom: 100px;
-    left: 250px;
-    object-fit: cover;
-    object-position: bottom;
 }
 
+@media screen and (max-width: 1220px) {
+    .pictures div {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
 
 .blank {
     border-top: solid #666;
@@ -248,15 +249,6 @@ hr.solid {
     text-align: center;
     position: relative;
     bottom: 70px;
-}
-
-@media screen and (max-width: 1220px) {
-    .pictures {
-        display:flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        width: 50%;
-    }
 }
 
 body {
