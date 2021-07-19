@@ -186,6 +186,8 @@ hr.solid {
     border: 10px groove #666;
     width: 900px;
     margin: 40px;
+    position: relative;
+    bottom: 60px;
 }
 
 @media screen and (max-width: 1220px) {
