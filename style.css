@@ -185,9 +185,9 @@ hr.solid {
 .pictures div {
     border: 10px groove #666;
     width: 900px;
-    margin: 40px;
+    margin: 125px;
     position: relative;
-    bottom: 60px;
+    bottom: 200px;
 }
 
 @media screen and (max-width: 1220px) {
@@ -256,6 +256,68 @@ hr.solid {
 body {
     background-color: #f0f0f0;
 }
+
+.port {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    bottom: 1250px;
+
+}
+
+.portfolio {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#727272;
+    font-size: 18px;
+    text-align: right;
+    position:relative;
+    bottom: 1270px;
+}
+
+.agile {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    bottom: 930px;
+}
+
+.scrum {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#727272;
+    font-size: 18px;
+    text-align: right;
+    position:relative;
+    bottom: 950px;
+
+}
+
+.test {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    bottom: 610px;
+}
+
+.testing {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#727272;
+    font-size: 18px;
+    text-align: right;
+    position:relative;
+    bottom: 630px;
+}
+
+
+
 
 
 
